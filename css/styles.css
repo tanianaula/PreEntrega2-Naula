@@ -400,6 +400,18 @@ div .submit button:active{
   }
 }
 
+/*queries de generales*/
+
+@media (max-width:480px){
+    header img {
+    margin-left: 0px;
+}
+}
+
+.título{
+    margin-left: 12px;
+}
+
 /*queries de novedades*/
 @media (max-width:991px){
     section .novedades-img {
@@ -415,6 +427,10 @@ div .submit button:active{
     }
 }
 
+.novedades-img img{
+    padding-right: 30px;
+}
+
 /*queries de bestsellers*/
 @media (max-width:991px){
     section .bestsellers{
@@ -428,6 +444,10 @@ div .submit button:active{
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: 3;
     }
+}
+
+    .bestsellers img{
+        padding-right: 30px;
 }
 
 /*queries de carrusel*/
