@@ -404,13 +404,13 @@ div .submit button:active{
 
 @media (max-width:480px){
     header img {
-    margin-left: 0px;
+        margin-left: 0px;
+}
+    .título{
+        margin-left: 12px;
 }
 }
 
-.título{
-    margin-left: 12px;
-}
 
 /*queries de novedades*/
 @media (max-width:991px){
@@ -425,10 +425,10 @@ div .submit button:active{
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: 3;
     }
-}
 
-.novedades-img img{
-    padding-right: 30px;
+    .novedades-img img{
+        padding-right: 30px;
+}
 }
 
 /*queries de bestsellers*/
@@ -444,11 +444,12 @@ div .submit button:active{
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: 3;
     }
-}
-
     .bestsellers img{
         padding-right: 30px;
 }
+}
+
+    
 
 /*queries de carrusel*/
 
