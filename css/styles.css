@@ -407,7 +407,8 @@ div .submit button:active{
         margin-left: 0px;
 }
     .título{
-        margin-left: 12px;
+        margin-left: 30px;
+        margin-bottom: 15px;
 }
 }
 
@@ -427,7 +428,7 @@ div .submit button:active{
     }
 
     .novedades-img img{
-        padding-right: 30px;
+        width: 360px;
 }
 }
 
@@ -445,7 +446,7 @@ div .submit button:active{
         grid-template-rows: 3;
     }
     .bestsellers img{
-        padding-right: 30px;
+        width: 360px;
 }
 }
 
